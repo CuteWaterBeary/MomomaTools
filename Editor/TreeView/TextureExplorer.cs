@@ -38,10 +38,10 @@ namespace MomomaAssets
         SearchField m_SearchField;
         UnityObjectTreeViewBase m_TreeView;
 
-        [MenuItem("MomomaTools/Texture Explorer", false, 110)]
+        [MenuItem("MomomaTools/Scene Texture Settings", false, 110)]
         static void ShowWindow()
         {
-            GetWindow<TextureExplorer>("Texture Explorer");
+            GetWindow<TextureExplorer>("Scene Texture Settings");
         }
 
         static MethodInfo GetMethod(string methodName)
