@@ -42,10 +42,10 @@ namespace MomomaAssets
 
         object parent => m_Parent ?? (m_Parent = s_ParentInfo.GetValue(this));
 
-        [MenuItem("MomomaTools/Extended Inspector", false, 100)]
+        [MenuItem("MomomaTools/Inspector++", false, 100)]
         static void ShowWindow()
         {
-            EditorWindow.GetWindow<ExtendedInspector>("Inspector Ex");
+            EditorWindow.GetWindow<ExtendedInspector>("Inspector++");
         }
 
         static MethodInfo GetMethodInfo(string methodName)
